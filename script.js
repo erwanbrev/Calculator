@@ -4,7 +4,8 @@ const ecran = document.querySelector('.screen');
 
 document.addEventListener('keydown', (e) => {
     const valeur = e.keyCode.toString();
-    calculer(valeur)
+    calculer(valeur);
+    console.log(e);
 })
 
 document.addEventListener('click', (e) => {
